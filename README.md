@@ -1,1 +1,10 @@
 # Chef-and-candies
+# cook your dish here
+from math import ceil
+
+for i in range(int(input())):
+    n,x = map(int, input().split())
+    if x < n:
+        print(ceil((n-x)/4))
+    else:
+        print(0)
